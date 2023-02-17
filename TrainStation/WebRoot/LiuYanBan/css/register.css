@@ -1,0 +1,133 @@
+@charset "utf-8";
+*{margin: 0;padding: 0px;}
+input{
+	outline: none;
+}
+/* 头部开始 */
+header{
+	margin: 0 auto;
+	width: 1360px;
+	height: 100px;
+}
+header>form>ul{margin-top: 30px;}
+header>form>ul>li{
+	list-style: none;
+	display: inline-block;
+}
+header>form>ul>li:nth-of-type(1){
+	margin-left: 130px;
+}
+header>form>ul>li:nth-of-type(2){
+	border-left: 1px solid #E5E5E5;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	overflow: hidden;
+	margin-left: 20px;
+}
+header>form>ul>li:nth-of-type(3){
+	border: 1px solid #E5E5E5;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	line-height: 50px;
+	overflow: hidden;
+	margin-left: 200px;
+}
+header>form>ul>li:nth-of-type(3)>a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+/* 头部结束 */
+/* 主题开始 */
+.daKuang{
+	border: 1px solid white;
+	margin: 0 auto;
+	width: 1360px;
+	height:650px;
+	background-color: #F5F5F5;
+}
+.daKuang>form{
+	margin: 0 auto;
+	width: 1000px;
+	height: 450px;
+	margin-top: 50px;
+	background-color: white;
+	padding: 40px 0px 0px 0px;
+}
+
+
+
+.input1{
+	border: 1px solid #E5E5E5;
+	width: 350px;
+	line-height: 40px;
+	margin-left: 40px;
+	margin: 0px 0px 15px 45px;
+}
+.input1>.input2{
+	border-right: 1px solid #E5E5E5;
+	margin-left: 12px;
+}
+.input1>.input2>img{
+	margin-top: 15px;
+}
+.input1>.input3{
+	border-right: 1px solid #E5E5E5;
+	margin-left: 12px;
+	width: 100px;
+}
+.input1>.input3>.input4{
+	margin-left: 30px;
+	
+}
+#weiInput>p{display:inline-block;}
+.input1>input{
+	height: 55px;
+	border: 0px solid red;
+	margin-left: 12px;
+}
+footer{
+	margin: 0 auto;
+	width: 1360px;
+	height: 75px;
+}
+footer>ul{
+	margin-left: 180px;
+	margin-top: 20px;
+	width: 1000px;
+}
+footer>ul>li{
+	list-style: none;
+	display: inline-block;
+	line-height: 60px;
+	text-align: center;
+	width:100px;
+	font-size:17px;
+}
+footer>ul>li>a{
+	text-decoration: none;
+	color: #666666;
+}
+footer>ul>li>span{
+	margin-left: 16px;
+	color: #666666;
+}
+#zhuCe{
+	border: 1px solid #F2546B;
+	width: 350px;
+	height: 40px;
+	margin-left: 45px;
+}
+#zhuCe input {
+	border: 1px solid #F2546B;
+	width: 350px;
+	height: 40px;
+	text-align: center;
+	color: white;
+	background-color:#F2546B ;
+}
+
+/* 主题结束 */

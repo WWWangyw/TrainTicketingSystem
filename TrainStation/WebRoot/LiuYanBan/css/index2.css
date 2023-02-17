@@ -1,0 +1,154 @@
+@charset "utf-8";
+.wrap{
+	border: 1px solid black;
+	margin: auto;
+	width: 800px;
+	height: 850px;
+	border-radius: 10px;
+}
+#tou{
+	text-align: right;
+	width: 760px;
+	margin-top: 10px;
+}
+body{
+	background-color: #f7f7f7;
+}
+.zhu{
+	margin-top: 10px;
+}
+
+.ai{
+	width:700px;
+	height:100px;
+}
+
+.yi{
+	color: darkgray;
+}
+
+.er{
+	text-align: right;
+}
+
+.san{
+	background: darkgray;
+	color: white;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+	margin-left: 25px;
+}
+
+ul li:nth-of-type(1){
+	color: chocolate;
+	font-size: 18px;
+}
+
+ul li:nth-of-type(2){
+	font-size: 15px;
+	margin: 5px 15px;
+}
+
+ul li:nth-of-type(3){
+	font-size: 8px;
+	color: darkgray;
+}
+
+.liuYanRen a{
+	float: right;
+	margin-right: 30px;
+	overflow: hidden;
+	text-decoration: none;
+	color: darkgray;
+	margin-left: 15px;
+}
+
+
+hr{
+	width: 750px;
+	margin: auto;
+}
+
+
+b{
+	color: #000000;
+}
+.si{
+	margin-left: 50px;
+}
+.si td{
+	width: 50px;
+	height: 50px;
+	background: darkgray;
+	color: white;
+	text-align: center;
+}
+
+.si td:hover{
+	background: chocolate;
+}
+
+/*头部*/
+#tou table{
+	float: left;
+	height: 40px;
+}
+#tou table tr td:nth-of-type(1){
+	border-radius: 8px;
+	background-color:skyblue;
+}
+#tou table tr td:nth-of-type(1) a{
+	color: white;
+	font-weight: bold;
+}	
+#tou table tr td:nth-of-type(1):hover{
+	border-radius: 8px;
+	background-color:orange;
+}	
+#tou table tr td:nth-of-type(1):hover a{
+	color: orangered;
+	font-weight: bold;
+}
+#tou table tr td:nth-of-type(2){
+	border-radius: 8px;
+	background-color:skyblue;
+}
+#tou table tr td:nth-of-type(2) a{
+	color: white;
+	font-weight: bold;
+}	
+#tou table tr td:nth-of-type(2):hover{
+	border-radius: 8px;
+	background-color:orange;
+}	
+#tou table tr td:nth-of-type(2):hover a{
+	color: aqua;
+	font-weight: bold;
+}
+
+
+
+/*主题*/
+.zhu tr td textarea{
+	border: 1px solid skyblue;
+	background-color: skyblue;
+	border-radius: 6px;
+}
+
+.page a{
+	display: block;
+	width:50px;
+	height:30px;
+	float:left;
+	background: #f4f4f4;
+	text-align: center;
+	line-height:30px;
+	margin: 10px 5px;
+	text-decoration: none;
+}
+.page a:hover{
+	background: #f50;
+}
